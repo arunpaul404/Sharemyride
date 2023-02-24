@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form METHOD="post">
+    {% csrf_token %}
+<table align="center">
+	<h1 align="center">Emergency number</h1>
+      <tr>
+			<td>name</td>
+			<td><input type="text" name="name"></td>
+		</tr>
+
+    <tr>
+			<td>emergency number</td>
+			<td><input type="text" name="number"></td>
+		</tr>
+
+		<tr>
+			<td></td>
+			<td><input type="submit" name="" value="ADD">
+			</td>
+		</tr>
+
+    </form>
+</body>
+
+</html>
